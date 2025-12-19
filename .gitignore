@@ -1,0 +1,40 @@
+# --- Entornos Virtuales de Python ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Caché de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Data Science & Jupyter ---
+.ipynb_checkpoints/
+.python-version
+# Ignora archivos de datos pesados si no quieres subirlos (opcional)
+datascience/data/*.csv
+datascience/data/flight_delays.csv
+# --- Java & Spring Boot (Backend) ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/
+.factorypath
+build/
+
+# --- IDEs (VS Code, IntelliJ) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.settings/
+.project
+.classpath
+
+# --- Archivos temporales y de sistema ---
+.DS_Store
+*.log
