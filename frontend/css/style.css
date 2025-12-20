@@ -1,0 +1,35 @@
+/* style.css */
+.block-container {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* Ocultar elementos nativos de Streamlit */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Botones */
+div.stButton > button {
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    border-radius: 0px;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease;
+}
+div.stButton > button:hover {
+    background-color: #333333;
+    color: white;
+    border: none;
+    transform: scale(1.01);
+}
+
+/* Títulos */
+h1 {
+    margin-top: -50px;
+    padding-bottom: 20px;
+}

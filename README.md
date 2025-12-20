@@ -5,7 +5,8 @@ Solución MVP para predecir si un vuelo se retrasará basándose en datos histó
 Consta de dos componentes:
 1.  **Data Science Microservice (Python/FastAPI)**: Carga el modelo predictivo y expone inferencia.
 2.  **Back-End API (Java/Spring Boot)**: API REST principal que valida y consulta el modelo.
-
+## Activar entorno virtual
+-   source .venv/Scripts/activate 
 ## Estructura del Proyecto
 -   `/datascience`: Notebooks, scripts de entrenamiento, API Python y datos.
 -   `/backend`: Proyecto Java Spring Boot.
